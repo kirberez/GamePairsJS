@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <form action="get" id="form" class="form visible">
+    <div class="form__input-wrapper">
+      <p class="form__input-descr">Kарт по вертикали (от 2 до 8)</p>
+      <input class="form__input" type="number" name="vertical" class="counter" value="4" min="2" max="8">
+    </div>
+    <div class="form__input-wrapper">
+      <p class="form__input-descr">Kарт по горизонтали (от 2 до 8)</p>
+      <input class="form__input" type="number" name="horizontal" class="counter" value="4" min="2" max="8">
+    </div>
+    <button type="submit" class="game-start__btn btn">Начать игру</button>
+  </form>
+  <div class="timer"></div>
+  <section class="wrapper">
+  </section>
+  <button type="button" class="game-over__btn btn">Сыграть ещё раз</button>
+</body>
+</html>
