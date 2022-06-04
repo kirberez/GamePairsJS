@@ -100,7 +100,7 @@ body {
   transform: translate(-50%, -50%);
   word-break: break-all;
   opacity: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 .form {
